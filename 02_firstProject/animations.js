@@ -1,4 +1,3 @@
-
 const ctlPrev = document.getElementById("ctlPrev");
 const ctlNext = document.getElementById("ctlNext");
 const ctlPause = document.getElementById("ctlPause");

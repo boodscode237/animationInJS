@@ -1,0 +1,28 @@
+html {
+    background-color: #333;
+    color: #ddd;
+    font-family: sans-serif;
+}
+
+.spinner{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    border: 8px solid #ccc;
+    border-right-color: #f90;
+    border-radius: 50%;
+    margin: 30px;
+}
+p{
+    text-align: center;
+    color: #222222;
+}
+.spinnerCss {
+    animation: spinMe 1s forwards infinite linear;
+}
+
+@keyframes spinMe {
+    to{
+        transform: rotate(359deg)
+    }
+}
