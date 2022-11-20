@@ -1,0 +1,57 @@
+html {
+    background-color: #e4e4e4;
+    --duration: 1000ms
+}
+
+.thing {
+    width: 100px;
+    height: 100px;
+    background: #f90;
+    /*animation: moveRight var(--duration) forwards ease-out,*/
+    /*moveDown var(--duration) calc(var(--duration) * 1.5) forwards ease-out;*/
+}
+
+/*@keyframes moveRight {*/
+/*    to {*/
+/*        transform: translate(300px, 0);*/
+/*        border-radius: 50%;*/
+/*        background-color: #333;*/
+/*    }*/
+/*}*/
+/*@keyframes moveDown {*/
+/*    0% {*/
+/*        transform: translate(300px, 0);*/
+/*        border-radius: 50%;*/
+/*        background-color: #333;*/
+/*    }*/
+/*    100% {*/
+/*        transform: translate(300px, 300px);*/
+/*        border-radius: 0;*/
+/*        background-color: #f90;*/
+/*    }*/
+
+/*}*/
+
+/*@keyframes moveRight {*/
+/*    0% {*/
+/*        transform: translate(0, 0);*/
+/*        border-radius: 0px;*/
+/*        background-color: #f90;*/
+/*    }*/
+/*    33% {*/
+/*        transform: translate(300px, 0);*/
+/*        border-radius: 50%;*/
+/*        background-color: #333;*/
+/*    }*/
+/*    66% {*/
+/*        transform: translate(300px, 0);*/
+/*        border-radius: 50%;*/
+/*        background-color: #333;*/
+/*    }*/
+/*    100% {*/
+/*        transform: translate(300px, 300px);*/
+/*        border-radius: 0;*/
+/*        background-color: #f90;*/
+/*    }*/
+
+/*}*/
